@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     text-align: center;
 }
 
+/* Header */
 header {
     background: #333;
     color: white;
@@ -26,10 +28,22 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Hero Section */
 #hero {
-    background: url('https://source.unsplash.com/1600x900/?marketing,business') no-repeat center center/cover;
+    background: url('https://source.unsplash.com/1600x900/?business,marketing') no-repeat center center/cover;
     color: white;
-    padding: 100px 20px;
+    padding: 150px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .btn {
@@ -39,27 +53,38 @@ nav ul li a {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 20px;
 }
 
 .service {
     background: #f4f4f4;
     padding: 20px;
     margin: 10px;
+    border-radius: 8px;
 }
 
+/* Travel Section */
 #travel {
     background: #ddd;
-    padding: 20px;
+    padding: 50px 20px;
 }
 
+/* Contact Section */
 #contact {
-    padding: 20px;
+    padding: 50px 20px;
 }
 
 input, textarea {
     width: 80%;
     padding: 10px;
     margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 button {
@@ -67,8 +92,10 @@ button {
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
 }
 
+/* Footer */
 footer {
     background: #222;
     color: white;
