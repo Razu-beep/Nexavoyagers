@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexavoyagers - Digital Marketing & Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Nexavoyagers</h1>
+        <p>Expert Digital Marketing Services & Travel Planning</p>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Grow Your Business with Our Digital Marketing Expertise</h2>
+        <p>We provide SEO, PPC, Social Media Marketing, and more to take your business to the next level.</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Search Engine Optimization (SEO)</h3>
+            <p>Boost your website's ranking and organic traffic.</p>
+        </div>
+        <div class="service">
+            <h3>Pay-Per-Click Advertising (PPC)</h3>
+            <p>Maximize ROI with targeted advertising campaigns.</p>
+        </div>
+        <div class="service">
+            <h3>Social Media Marketing</h3>
+            <p>Engage and grow your audience across platforms.</p>
+        </div>
+        <div class="service">
+            <h3>Content Marketing</h3>
+            <p>High-quality content to drive engagement and sales.</p>
+        </div>
+    </section>
+
+    <section id="travel">
+        <h2>Travel Itinerary Planning</h2>
+        <p>Need help planning your next adventure? We provide customized travel itineraries to make your trip unforgettable.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Nexavoyagers. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
